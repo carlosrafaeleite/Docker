@@ -1,0 +1,7 @@
+# Configure end-of-line normalization
+* text=auto
+
+# Explicitly set the line endings for certain files
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf

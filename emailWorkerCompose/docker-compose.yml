@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15.2
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 221076
+      POSTGRES_DB: exampexemplo
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+volumes:
+  db_data:
